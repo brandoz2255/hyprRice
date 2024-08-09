@@ -1,0 +1,9 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 50%;
+    location: 0;  /* Center of the screen */
+}

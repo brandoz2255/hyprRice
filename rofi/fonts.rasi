@@ -1,0 +1,4 @@
+configuration {
+    font: "Monospace 12";
+}
+

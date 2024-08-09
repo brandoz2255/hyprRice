@@ -1,0 +1,119 @@
+* {
+  border: none;
+  font-size: 14px;
+  font-family: "JetBrainsMono Nerd Font,JetBrainsMono NF";
+  min-height: 20px; /* Slightly reduced height */
+  color: #00ffcc; /* Neon cyan text */
+}
+
+window#waybar {
+  background: rgba(0, 0, 0, 0); /* Semi-transparent black background */
+  margin: 10px; /* Adds space around the Waybar */
+  box-shadow: 0 0 10px #00ffcc; /* Neon cyan glow */
+}
+
+#custom-logo {
+  padding: 0 10px;
+}
+
+.modules-right {
+  padding-left: 5px;
+  border-radius: 15px; /* Fully rounded corners */
+  margin-top: 2px;
+  background: rgba(65, 18, 139, 0.6); /* Increased transparency */
+  box-shadow: 0 0 5px #ff00ff; /* Neon magenta glow */
+  margin: 10px; /* Adds space around the Waybar */
+}
+
+.modules-center {
+  padding: 0 15px;
+  margin-top: 2px;
+  border-radius: 15px; /* Fully rounded corners */
+  background: rgba(21, 103, 109, 0.6); /* Increased transparency */
+  box-shadow: 0 0 5px #00ffcc; /* Neon cyan glow */
+  margin: 10px; /* Adds space around the Waybar */
+}
+
+.modules-left {
+  border-radius: 15px; /* Fully rounded corners */
+  margin-top: 2px;
+  background: rgba(65, 18, 139, 0.6); /* Increased transparency */
+  box-shadow: 0 0 5px #ff00ff; /* Neon magenta glow */
+  margin: 10px; /* Adds space around the Waybar */
+}
+
+#battery,
+#custom-clipboard,
+#custom-colorpicker,
+#custom-powerDraw,
+#bluetooth,
+#pulseaudio,
+#network,
+#disk,
+#memory,
+#backlight,
+#cpu,
+#temperature,
+#custom-weather,
+#idle_inhibitor,
+#jack,
+#tray,
+#window,
+#workspaces,
+#clock {
+  padding: 0 5px;
+  text-shadow: 0 0 5px #00ffcc; /* Neon cyan text glow */
+}
+
+#battery {
+  border-radius: 15px; /* Fully rounded corners */
+}
+
+#pulseaudio {
+  padding-top: 3px;
+}
+
+#temperature.critical,
+#pulseaudio.muted {
+  color: #FF0000; /* Red color for critical temperature and muted audio */
+  padding-top: 0;
+  text-shadow: 0 0 5px #FF0000; /* Red text glow */
+}
+
+#clock {
+  color: #5fd1fa;
+  text-shadow: 0 0 5px #5fd1fa; /* Light blue text glow */
+}
+
+#battery.charging {
+  color: #ffffff;
+  background-color: #26A65B; /* Green background for charging battery */
+  box-shadow: 0 0 10px #26A65B; /* Green glow */
+}
+
+#battery.warning:not(.charging) {
+  background-color: #ffbe61; /* Orange background for warning battery */
+  color: black;
+  box-shadow: 0 0 10px #ffbe61; /* Orange glow */
+}
+
+#battery.critical:not(.charging) {
+  background-color: #f53c3c; /* Red background for critical battery */
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  box-shadow: 0 0 10px #f53c3c; /* Red glow */
+}
+
+@keyframes blink {
+  to {
+      background-color: #ffffff;
+      color: #000000;
+  }
+}
+
+
+
