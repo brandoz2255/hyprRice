@@ -1,6 +1,4 @@
-# hyprRice
-
-This is my Dot files for my first Hyprland Rice that I made with  Bash Scripting and  pure Documentation as well as taking inspiration from other Repos. 
+This is my Dot files for my first hyprland Rice that I made with  Bash Scripting and  pure Documentation as well as taking inspiration from other Repos. 
 
 #### Goal
 
@@ -13,6 +11,22 @@ Which I successfully implemented here with my Simple Rice using Hyprland.
 - Waypaper
 - Waybar
 - SMM
+
+
+
+### How it Looks 
+
+##### Fire Fox and Neofetch 
+![[screenshot26.png]]
+
+My Rice looking Futuristic! 
+
+### Another Angle 
+
+Here is another Angle with me coding and having an animation playing in the background With my web of Notes out!
+
+
+![[screenshot27.png]]
 
 ### Future Goals
 
