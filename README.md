@@ -30,4 +30,4 @@ Here is another Angle with me coding and having an animation playing in the back
 
 ### Future Goals
 
-- Is to Create my own C++ plugins to further enhance my Desktop experience in hyprland
+- Is to Create my own C++ plugins to further enhance my Desktop experience in hyprlands
