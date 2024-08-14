@@ -18,7 +18,7 @@ Which I successfully implemented here with my Simple Rice using Hyprland.
 
 ##### Fire Fox and Neofetch 
 
-![Alt text](screenshots/screenshot25.png)
+![.](hyprRice/screenshots/screenshot26.png)
 
 
 My Rice looking Futuristic! 
