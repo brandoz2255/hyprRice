@@ -28,7 +28,7 @@ My Rice looking Futuristic!
 Here is another Angle with me coding and having an animation playing in the background With my web of Notes out!
 
 
-![[screenshot27.png]]
+![screenshot](screenshots/screenshot27.png)
 
 ### Future Goals
 
